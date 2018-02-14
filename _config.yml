@@ -1,4 +1,50 @@
 # Site settings
+<<<<<<< HEAD
+title: anthernet
+description: >
+  a curated web developer blog with resources, articles and opinions by Anthony Ramella
+
+# Jekyll-FTP
+# username:
+# server_url: 
+# remote_dir: 
+
+# Baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://anthonyramella.com" # the base hostname & protocol for your site
+permalink: "/blog/:title/"
+author:
+  fullname: Anthony Ramella
+  github: tonyynot
+  twitter: tonecodes
+  disqus: aramella
+  instagram: blankwaves
+  linkedin: alramella
+
+google_analytics: 'UA-60032993-2'
+  
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: pygments
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+# Staticman (comments generator)
+allowedFields: ['name', 'email', 'comment']
+branch: 'gh-pages'
+format: 'yaml'
+moderation: true
+path: _data/posts/{options.post-slug}
+requiredFields: ['name', 'comment']
+transforms:
+  email: 'md5'
+
+plugins_dir:
+  - jekyll-gist
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
+  - font-awesome-sass
+=======
 title: Anthony Ramella | Home
 description: Homepage of Anthony Ramella
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -19,3 +65,4 @@ google-analytics:
   id: "UA-60032993-3"
 
 exclude: ['package.json', 'src' , 'node_modules']
+>>>>>>> 25f1cf5d5226f2aaf5311e3605fda1835dab0f2d

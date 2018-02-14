@@ -1,4 +1,33 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<html>
+
+    {% include head.html %}
+   
+    <body>
+        <header class="title_nav">
+          <div class="site">
+              <h1 class="title">
+                <a href="/">{{ site.title }}</a>
+              </h1>
+              
+              <div class="nav_links">
+                <a href="{{ '/' | prepend: site.baseurl }}">blog</a>
+                <a href="{{ '/about' | prepend: site.baseurl }}">about</a>
+                <a href="http://www.github.com/{{ site.author.github }}" target="_blank">code</a>
+              </div>
+          </div>
+        </header>
+
+        <div class="site">
+            
+            {{ content }}
+
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
+=======
 <html lang="en">
   {% include head.html %}
   <body>
@@ -6,3 +35,4 @@
 
       {% include footer.html %}
   </body>
+>>>>>>> 25f1cf5d5226f2aaf5311e3605fda1835dab0f2d
