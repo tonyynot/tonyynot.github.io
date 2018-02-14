@@ -1,7 +1,7 @@
 # Site settings
 title: Anthony Ramella | Home
 description: Homepage of Anthony Ramella
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: http://tonyynot.me # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
