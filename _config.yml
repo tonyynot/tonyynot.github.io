@@ -18,4 +18,10 @@ linkedin: alramella
 google-analytics: 
   id: "UA-60032993-3"
 
+# Syntax
+markdown: kramdown
+mathjax: true
+kramdown:
+  math_engine: mathjax
+
 exclude: ['package.json', 'src' , 'node_modules']
