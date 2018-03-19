@@ -24,7 +24,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
-    font-size: 50px;
+    font-size: 35px !important;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -34,7 +34,7 @@
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 23px !important;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -65,8 +65,8 @@
   .icon {
     text-align: center;
     color: #FFF;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     font-size: 20px;
     padding: 10px;
     margin: 5px;
