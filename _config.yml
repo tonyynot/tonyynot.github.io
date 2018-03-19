@@ -2,12 +2,12 @@
 title: Anthony Ramella | Home
 description: Homepage of Anthony Ramella
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: http://tonyynot.me # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: http://tonyramella.me # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Anthony Ramella
-user_description: 
-user_title: Front-end Engineer
+user_description:
+user_title: Front-end Developer
 email: aramella@protonmail.com
 twitter_username: tonecodes
 github_username:  tonyynot
@@ -15,7 +15,7 @@ linkedin: alramella
 # gplus_username:  lorem_ipsum
 
 # Google-analytics
-google-analytics: 
+google-analytics:
   id: "UA-60032993-3"
 
 # Syntax
