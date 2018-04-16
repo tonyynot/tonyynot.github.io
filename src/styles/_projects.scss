@@ -11,7 +11,10 @@
 }
 
 .user-projects {
-  margin: 20px auto;
+  height: auto;
+    @media only screen and (min-width: $cut) {
+      margin: 0 4rem;
+    }
   img {
     max-width: 100%;
     height: auto;
